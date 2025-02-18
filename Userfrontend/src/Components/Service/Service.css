@@ -1,0 +1,69 @@
+/* Booking Form Container */
+.booking-container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Group */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.other{
+    display: none;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio Buttons */
+.radio-group {
+    display: flex;
+    gap: 10px;
+    height: 20px;
+}
+.radio{
+    display: flex;
+}
+.radio-group label{
+    font-size: 15px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+     
+}
+
+/* Book Button */
+.btn-book {
+    background-color: #f4b400;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-book:hover {
+    background-color: #e0a800;
+}

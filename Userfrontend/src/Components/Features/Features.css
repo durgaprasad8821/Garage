@@ -1,0 +1,38 @@
+/* Available Services Section */
+.available-services {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    
+}
+
+.available-services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+.card-block{
+    display: flex;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black; /* Change arrow color */
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.prev-arrow {
+    left: -30px;
+}
+
+.next-arrow {
+    right: -20px;
+}
+
+
