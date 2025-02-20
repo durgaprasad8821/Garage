@@ -1,0 +1,72 @@
+ .service-form {
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    gap: 15px;
+}
+
+.form-left, .form-right {
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+select{
+    width: 100%;
+}
+ 
+
+input, select,p {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#part-options label {
+    display: block;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #45a049;
+}

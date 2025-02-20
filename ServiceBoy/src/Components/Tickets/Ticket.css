@@ -1,0 +1,55 @@
+.service-card {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.car-model {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.car-problem {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accept-btn, .reject-btn {
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.accept-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.reject-btn {
+    background: #E74C3C;
+    color: white;
+}
+
+.accept-btn:hover {
+    background: #45a049;
+}
+
+.reject-btn:hover {
+    background: #c0392b;
+}

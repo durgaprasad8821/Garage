@@ -1,0 +1,50 @@
+.dashboard {
+    width: 81%;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px 50px;
+}
+.ticket-block{
+    margin: 30px 0px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.stat-card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pending {
+    background: #ff9800;
+}
+
+.completed {
+    background: #4caf50;
+}
+
+.leave {
+    background: #2196f3;
+}

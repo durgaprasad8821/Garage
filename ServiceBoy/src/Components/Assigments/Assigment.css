@@ -1,0 +1,9 @@
+.ass-container{
+    background-color: grey;
+    width:81%;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap : 20px;
+}
